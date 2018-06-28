@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+        //This log is working fine enough
         Log.i("welcome: ", "sumit verma");
 
         downloadTask task= new downloadTask();
@@ -77,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
+
+        //logging out result news ids..(not working)
 
         Log.i("result: ", result);
 
